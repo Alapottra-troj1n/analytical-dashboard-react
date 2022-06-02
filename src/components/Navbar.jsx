@@ -1,9 +1,13 @@
 import React from 'react';
-import { FaSearch, FaShoppingCart } from 'react-icons/fa';
+import { FaSearch, FaShoppingCart,FaChevronDown } from 'react-icons/fa';
 
 const Navbar = () => {
     return (
-        <div>
+        <div className="grid grid-cols-[15%,85%]">
+            <div>
+
+
+            </div>
             <div className="navbar bg-base-100">
                 <div className="navbar-start  ">
                     <div className="dropdown">
@@ -29,7 +33,7 @@ const Navbar = () => {
                             </div>
                             
                         </div>
-                        <h2 className='mx-3 text-gray-500' >Hi, <span className='font-semibold' >Julia</span> </h2>
+                        <h2 className='mx-3 text-gray-500' >Hi, <span className='font-semibold' >Julia </span> <FaChevronDown className='inline' ></FaChevronDown>  </h2>
                     </div>
                 </div>
             </div>
