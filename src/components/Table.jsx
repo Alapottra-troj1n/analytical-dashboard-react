@@ -1,13 +1,14 @@
 import React from 'react';
+import './Table.css'
 
 const Table = () => {
     return (
 
         <div className="overflow-x-auto">
-            <table className="table w-full">
-                <thead >
-                    <tr className="text-md  text-gray-500 ">
 
+            <table className="table __head  w-full">
+                <thead className="__head">
+                    <tr className="text-md text-gray-500 ">
                         <th className="font-medium">Assigned</th>
                         <th className="font-medium">Name</th>
                         <th className="font-medium">Priority</th>
@@ -17,6 +18,7 @@ const Table = () => {
               <br />
                 <tbody>
                     <tr className="text-md  text-gray-500 ">
+                        
                         <td>
 
                            <div className="flex items-center">

@@ -15,6 +15,7 @@ const Modern = () => {
     return (
         <div className="container mx-auto pb-10">
             <div>
+                 {/* First Section */}
                 <div className="grid grid-cols-[40%,25%,35%] px-28 mt-16 items-center gap-5">
                     <div className="w-full flex justify-between bg-white overflow-hidden h-52 rounded-lg drop-shadow-sm" >
                         <div className="p-8">
@@ -46,6 +47,8 @@ const Modern = () => {
                     </div>
 
                 </div>
+
+                 {/* Second Section */}
 
                 <div className="grid grid-cols-[65%,35%] px-28 items-center gap-5 mt-10">
 
@@ -91,6 +94,9 @@ const Modern = () => {
 
 
                 </div>
+
+                {/* Third Section */}
+
                 <div className="grid grid-cols-[35%,65%] px-28 items-center gap-5 mt-10">
 
                     <div className=" bg-white py-5 flex flex-col justify-between px-5 rounded-lg">
@@ -150,6 +156,16 @@ const Modern = () => {
                     </div>
 
                 </div>
+
+                {/* Fourth Section */}
+
+                <div>
+                    
+
+                </div>
+
+
+
 
 
 
