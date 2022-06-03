@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <div className="grid grid-cols-[15%,85%]">
         <Sidebar />
-        <div>
+        <div className="bg-gray-100 h-screen">
           <Navbar />
           <Routes>
             <Route path='/' element={<Modern></Modern>}></Route>
