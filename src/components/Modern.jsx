@@ -2,6 +2,7 @@ import React from 'react';
 import girl from '../assets/welcome-bg2-2x-svg.e15f0c3a.svg'
 import { FaShoppingBag, FaDollarSign } from 'react-icons/fa';
 import LineChartOne from './Charts/LineChartOne';
+import BarChartOne from './Charts/BarChartOne';
 
 
 const Modern = () => {
@@ -58,6 +59,28 @@ const Modern = () => {
                         <div className="flex items-center justify-center">
                         <LineChartOne/>
                         </div>
+
+                    </div>
+                    <div className="flex flex-col gap-5 h-full">
+                        <div className="bg-secondary py-5 flex flex-col px-5 rounded-lg flex-1" >
+                            <h2 className="pt-5 ml-4 text-white font-medium text-lg">Monthy Earnings</h2>
+                            <div className="flex  items-center justify-center" >
+                            <BarChartOne/>
+                       
+                            </div>
+                            <h2 className="pt-5 ml-4 text-white font-medium text-2xl">$39,358 <span className="text-sm">↗︎ +9% this week</span> </h2>
+                           
+                        </div>
+                        <div className="bg-primary py-5 flex flex-col px-5 rounded-lg flex-1" >
+                            <h2 className="pt-5 ml-4 text-white font-medium text-lg">Customers</h2>
+                            <div className="flex  items-center justify-center" >
+                            <BarChartOne/>
+                       
+                            </div>
+                            <h2 className="pt-5 ml-4 text-white font-medium text-2xl">750 <span className="text-sm">↗︎ +9% this week</span> </h2>
+                           
+                        </div>
+                      
 
                     </div>
 
