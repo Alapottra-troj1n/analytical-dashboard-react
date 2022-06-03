@@ -1,19 +1,18 @@
 import React from 'react';
 import { FaSearch, FaShoppingCart,FaChevronDown } from 'react-icons/fa';
 
+
 const Navbar = () => {
     return (
-        <div className="grid grid-cols-[15%,85%]">
-            <div>
-
-
-            </div>
+        <div>      
             <div className="navbar bg-base-100">
                 <div className="navbar-start  ">
                     <div className="dropdown">
+                   
                         <label tabindex="0" className="btn btn-ghost btn-circle">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                           <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
                         </label>
+                      
                     </div>
                     <button className="btn btn-ghost"><FaSearch className="cursor-pointer text-xl text-gray-400" ></FaSearch></button>
 

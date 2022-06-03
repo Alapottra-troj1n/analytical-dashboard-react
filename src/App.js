@@ -1,16 +1,23 @@
 
-import { Routes,Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Modern from './components/Modern';
 import Navbar from './components/Navbar';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <div className="grid grid-cols-[15%,85%]">
+        <Sidebar />
+        <div>
+          <Navbar />
           <Routes>
             <Route path='/' element={<Modern></Modern>}></Route>
           </Routes>
+        </div>
+      </div>
+
     </div>
   );
 }
