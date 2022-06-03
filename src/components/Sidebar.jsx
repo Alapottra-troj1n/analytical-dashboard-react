@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Sidebar = () => {
     return (
-        <div className="flex flex-col shadow-lg border h-screen overflow-y-auto overflow-x-hidden">
+        <div className="flex flex-col shadow-lg overflow-y-auto overflow-x-hidden">
             <div className="py-4 px-8">
             <Link className="btn btn-ghost cursor-pointer" to='/'> 
             <img src={logo} alt="" />

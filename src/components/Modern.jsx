@@ -4,14 +4,16 @@ import { FaShoppingBag, FaDollarSign } from 'react-icons/fa';
 import LineChartOne from './Charts/LineChartOne';
 import BarChartOne from './Charts/BarChartOne';
 import CustomersLineChart from './Charts/CustomersLineChart';
+import PieChartOne from './Charts/PieChartOne';
+import Table from './Table';
 
 
 const Modern = () => {
-  
+
 
 
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto pb-10">
             <div>
                 <div className="grid grid-cols-[40%,25%,35%] px-28 mt-16 items-center gap-5">
                     <div className="w-full flex justify-between bg-white overflow-hidden h-52 rounded-lg drop-shadow-sm" >
@@ -54,11 +56,11 @@ const Modern = () => {
                                 <option disabled selected>March 2022</option>
                                 <option>April 2022</option>
                                 <option>May 2022</option>
-                              
+
                             </select>
                         </div>
                         <div className="flex items-center justify-center">
-                        <LineChartOne/>
+                            <LineChartOne />
                         </div>
 
                     </div>
@@ -66,22 +68,22 @@ const Modern = () => {
                         <div className="bg-secondary py-5 flex flex-col px-5 rounded-lg flex-1" >
                             <h2 className="pt-5 ml-4 text-white font-medium text-lg">Monthy Earnings</h2>
                             <div className="flex  items-center justify-center" >
-                            <BarChartOne/>
-                       
+                                <BarChartOne />
+
                             </div>
                             <h2 className="pt-5 ml-4 text-white font-medium text-2xl">$39,358 <span className="text-sm">↗︎ +9% this week</span> </h2>
-                           
+
                         </div>
                         <div className="bg-primary py-5 flex flex-col px-5 rounded-lg flex-1" >
                             <h2 className="pt-5 ml-4 text-white font-medium text-lg">Customers</h2>
                             <div className="flex  items-center justify-center" >
-                            <CustomersLineChart/>
-                       
+                                <CustomersLineChart />
+
                             </div>
                             <h2 className="pt-5 ml-4 text-white font-medium text-2xl">750 <span className="text-sm">↗︎ +9% this week</span> </h2>
-                           
+
                         </div>
-                      
+
 
                     </div>
 
@@ -89,6 +91,65 @@ const Modern = () => {
 
 
                 </div>
+                <div className="grid grid-cols-[35%,65%] px-28 items-center gap-5 mt-10">
+
+                    <div className=" bg-white py-5 flex flex-col justify-center px-5 rounded-lg">
+                        <div className='flex justify-between'>
+                            <h2 className="text-left text-xl font-medium mt-3 mb-10">Total Sales</h2>
+                            <select class="select max-w-xs select-bordered">
+                                <option disabled selected>March 2022</option>
+                                <option>April 2022</option>
+                                <option>May 2022</option>
+
+                            </select>
+                        </div>
+                        
+                            <div className="divider"></div>
+                          <div className="flex justify-between" >
+                          <h2 className="text-left text-lg font-medium mt-3 mb-10">Sales Yearly</h2>
+                          <h2 className="text-left text-2xl font-semibold mt-3 mb-10">8,364,398</h2>
+
+                          </div>
+
+                          <div className='flex items-center flex-col justify-center' >
+                              <PieChartOne/>
+                            <div className="flex justify-between gap-5">
+                            <div className='flex items-center'>
+                              <div className="badge badge-primary badge-xs mx-2"></div>
+                              <h2 className='text-sm'>2020</h2>
+                              </div>
+                              <div className='flex items-center'>
+                              <div className="badge badge-secondary badge-xs mx-2"></div>
+                              <h2 className='text-sm'>2021</h2>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+
+
+
+                    <div className=" bg-white py-5 flex flex-col flex-1 h-full overflow-y-scroll overflow-x-hidden w-full justify-center px-5 rounded-lg">
+
+                    <div className='flex justify-between'>
+                            <h2 className="text-left text-xl font-medium mt-3 mb-10">Product Performance</h2>
+                            <select class="select max-w-xs select-bordered">
+                                <option disabled selected>March 2022</option>
+                                <option>April 2022</option>
+                                <option>May 2022</option>
+
+                            </select>
+                    </div>
+
+                    <div className=''>
+                        <Table/>
+                    </div>
+
+
+                    </div>
+
+                </div>
+
+
 
             </div>
         </div>
