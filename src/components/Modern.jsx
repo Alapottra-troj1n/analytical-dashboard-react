@@ -93,7 +93,7 @@ const Modern = () => {
                 </div>
                 <div className="grid grid-cols-[35%,65%] px-28 items-center gap-5 mt-10">
 
-                    <div className=" bg-white py-5 flex flex-col justify-center px-5 rounded-lg">
+                    <div className=" bg-white py-5 flex flex-col justify-between px-5 rounded-lg">
                         <div className='flex justify-between'>
                             <h2 className="text-left text-xl font-medium mt-3 mb-10">Total Sales</h2>
                             <select class="select max-w-xs select-bordered">
@@ -104,7 +104,7 @@ const Modern = () => {
                             </select>
                         </div>
                         
-                            <div className="divider"></div>
+                        <div className="divider"></div>
                           <div className="flex justify-between" >
                           <h2 className="text-left text-lg font-medium mt-3 mb-10">Sales Yearly</h2>
                           <h2 className="text-left text-2xl font-semibold mt-3 mb-10">8,364,398</h2>
@@ -128,10 +128,10 @@ const Modern = () => {
 
 
 
-                    <div className=" bg-white py-5 flex flex-col flex-1 h-full overflow-y-scroll overflow-x-hidden w-full justify-center px-5 rounded-lg">
+                    <div className=" bg-white py-5 flex flex-col  h-full w-full justify-between px-5 rounded-lg">
 
                     <div className='flex justify-between'>
-                            <h2 className="text-left text-xl font-medium mt-3 mb-10">Product Performance</h2>
+                            <h2 className="text-left text-xl font-medium mt-3">Product Performance</h2>
                             <select class="select max-w-xs select-bordered">
                                 <option disabled selected>March 2022</option>
                                 <option>April 2022</option>
@@ -140,7 +140,9 @@ const Modern = () => {
                             </select>
                     </div>
 
-                    <div className=''>
+                 
+
+                    <div>
                         <Table/>
                     </div>
 
