@@ -1,8 +1,13 @@
 import React from 'react';
 import girl from '../assets/welcome-bg2-2x-svg.e15f0c3a.svg'
-import { FaShoppingBag,FaDollarSign } from 'react-icons/fa';
+import { FaShoppingBag, FaDollarSign } from 'react-icons/fa';
+import LineChartOne from './Charts/LineChartOne';
+
 
 const Modern = () => {
+  
+
+
     return (
         <div className="container mx-auto">
             <div>
@@ -35,6 +40,29 @@ const Modern = () => {
                             <button class='btn btn-primary rounded-full' ><FaDollarSign className="text-white text-lg" /></button>
                         </div>
                     </div>
+
+                </div>
+
+                <div className="grid grid-cols-[65%,35%] px-28 items-center gap-5 mt-10">
+
+                    <div className=" bg-white py-5 flex  flex-col justify-center px-5 rounded-lg">
+                        <div className='flex justify-between'>
+                            <h2 className="text-left text-xl font-medium mt-3 mb-10">Revenue Updates</h2>
+                            <select class="select max-w-xs select-bordered">
+                                <option disabled selected>March 2022</option>
+                                <option>April 2022</option>
+                                <option>May 2022</option>
+                              
+                            </select>
+                        </div>
+                        <div className="flex items-center justify-center">
+                        <LineChartOne/>
+                        </div>
+
+                    </div>
+
+
+
 
                 </div>
 
