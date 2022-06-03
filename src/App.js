@@ -8,9 +8,9 @@ import Sidebar from './components/Sidebar';
 function App() {
   return (
     <div className="App">
-      <div className="grid grid-cols-[15%,85%]">
+      <div className=" grid grid-cols-[15%,85%]">
         <Sidebar />
-        <div className="bg-gray-50">
+        <div className="overflow-y-scroll h-screen bg-gray-50">
           <Navbar />
           <Routes>
             <Route path='/' element={<Modern></Modern>}></Route>

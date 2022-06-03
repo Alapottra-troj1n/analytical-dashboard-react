@@ -9,6 +9,7 @@ import Table from './Table';
 import { FaEllipsisH } from "react-icons/fa";
 import DailyActivities from './DailyActivities';
 import BarChartTwo from './Charts/BarChartTwo';
+import BlogCard from './BlogCard';
 
 
 const Modern = () => {
@@ -16,10 +17,10 @@ const Modern = () => {
 
 
     return (
-        <div className="container mx-auto pb-10">
+        <div className=" pb-10 ">
             <div>
                  {/* First Section */}
-                <div className="grid grid-cols-[40%,25%,35%] px-28 mt-16 items-center gap-5">
+                <div className="grid grid-cols-[40%,25%,35%] px-28 mt-16  items-center gap-5">
                     <div className="w-full flex justify-between bg-white overflow-hidden h-52 rounded-3xl drop-shadow-sm" >
                         <div className="p-8">
                             <h2 className="font-medium my-2 text-lg" >Congratulation Julia</h2>
@@ -209,6 +210,20 @@ const Modern = () => {
 
 
                 </div>
+
+                  {/* Fifth Section */}
+
+
+                  <div className='grid grid-cols-3 px-28 pt-5 gap-5 mt-10'>    
+
+                          <BlogCard/>
+                          <BlogCard/>
+                          <BlogCard/>
+
+                   
+
+
+                  </div>
 
 
 
