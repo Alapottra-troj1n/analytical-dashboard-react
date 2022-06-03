@@ -3,6 +3,7 @@ import girl from '../assets/welcome-bg2-2x-svg.e15f0c3a.svg'
 import { FaShoppingBag, FaDollarSign } from 'react-icons/fa';
 import LineChartOne from './Charts/LineChartOne';
 import BarChartOne from './Charts/BarChartOne';
+import CustomersLineChart from './Charts/CustomersLineChart';
 
 
 const Modern = () => {
@@ -46,7 +47,7 @@ const Modern = () => {
 
                 <div className="grid grid-cols-[65%,35%] px-28 items-center gap-5 mt-10">
 
-                    <div className=" bg-white py-5 flex  flex-col justify-center px-5 rounded-lg">
+                    <div className=" bg-white py-5 flex flex-1 h-full flex-col justify-center px-5 rounded-lg">
                         <div className='flex justify-between'>
                             <h2 className="text-left text-xl font-medium mt-3 mb-10">Revenue Updates</h2>
                             <select class="select max-w-xs select-bordered">
@@ -74,7 +75,7 @@ const Modern = () => {
                         <div className="bg-primary py-5 flex flex-col px-5 rounded-lg flex-1" >
                             <h2 className="pt-5 ml-4 text-white font-medium text-lg">Customers</h2>
                             <div className="flex  items-center justify-center" >
-                            <BarChartOne/>
+                            <CustomersLineChart/>
                        
                             </div>
                             <h2 className="pt-5 ml-4 text-white font-medium text-2xl">750 <span className="text-sm">↗︎ +9% this week</span> </h2>
