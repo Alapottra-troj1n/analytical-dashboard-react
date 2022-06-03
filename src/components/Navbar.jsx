@@ -6,7 +6,7 @@ import { FiMessageSquare } from "react-icons/fi";
 const Navbar = () => {
     return (
         <div>      
-            <div className="navbar bg-gray-100">
+            <div className="navbar bg-gray-50">
                 <div className="navbar-start  ">
                     <div className="dropdown">
                    
