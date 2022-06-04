@@ -63,7 +63,7 @@ const Modern = () => {
                         <div className='flex justify-between'>
                             <h2 className="text-left text-xl font-medium mt-3 mb-10">Revenue Updates</h2>
                             <select className="select max-w-xs select-bordered">
-                                <option disabled selected>March 2022</option>
+                                <option defaultValue>March 2022</option>
                                 <option>April 2022</option>
                                 <option>May 2022</option>
 
@@ -110,7 +110,7 @@ const Modern = () => {
                         <div className='flex justify-between'>
                             <h2 className="text-left text-xl font-medium mt-3 mb-10">Total Sales</h2>
                             <select className="select max-w-xs select-bordered">
-                                <option disabled selected>March 2022</option>
+                            <option defaultValue>March 2022</option>
                                 <option>April 2022</option>
                                 <option>May 2022</option>
 
@@ -146,7 +146,7 @@ const Modern = () => {
                     <div className='flex justify-between'>
                             <h2 className="text-left text-xl font-medium mt-3">Product Performance</h2>
                             <select className="select max-w-xs select-bordered">
-                                <option disabled selected>March 2022</option>
+                            <option defaultValue>March 2022</option>
                                 <option>April 2022</option>
                                 <option>May 2022</option>
 
