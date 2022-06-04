@@ -28,8 +28,8 @@ const Navbar = () => {
                         </div>
                     </button>
                     <div className='flex items-center'>
-                        <div class="avatar online flex ml-10 mr-2 items-center">
-                            <div class="w-8 rounded-full">
+                        <div className="avatar online flex ml-10 mr-2 items-center">
+                            <div className="w-8 rounded-full">
                                 <img src="https://api.lorem.space/image/face?hash=28212" />
                             </div>
                             

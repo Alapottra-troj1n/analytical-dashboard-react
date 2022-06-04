@@ -22,8 +22,8 @@ const Table = () => {
                         <td>
 
                            <div className="flex items-center">
-                           <div class="avatar placeholder">
-                            <div class="bg-neutral-focus text-neutral-content rounded-full w-12">
+                           <div className="avatar placeholder">
+                            <div className="bg-neutral-focus text-neutral-content rounded-full w-12">
                                 <img src="https://i.ibb.co/y5szpzZ/download.jpg" alt='' />
                             </div>
                             </div>
@@ -42,8 +42,8 @@ const Table = () => {
                         <td>
 
                            <div className="flex items-center">
-                           <div class="avatar placeholder">
-                            <div class="bg-neutral-focus text-neutral-content rounded-full w-12">
+                           <div className="avatar placeholder">
+                            <div className="bg-neutral-focus text-neutral-content rounded-full w-12">
                                 <img src="https://i.ibb.co/B3tfbP8/download.jpg" alt='' />
                             </div>
                             </div>
@@ -62,8 +62,8 @@ const Table = () => {
                         <td>
 
                            <div className="flex items-center">
-                           <div class="avatar placeholder">
-                            <div class="bg-neutral-focus text-neutral-content rounded-full w-12">
+                           <div className="avatar placeholder">
+                            <div className="bg-neutral-focus text-neutral-content rounded-full w-12">
                                 <img src="https://i.ibb.co/1fKf22Q/download.jpg" alt='' />
                             </div>
                             </div>
@@ -82,8 +82,8 @@ const Table = () => {
                         <td>
 
                            <div className="flex items-center">
-                           <div class="avatar placeholder">
-                            <div class="bg-neutral-focus text-neutral-content rounded-full w-12">
+                           <div className="avatar placeholder">
+                            <div className="bg-neutral-focus text-neutral-content rounded-full w-12">
                                 <img src="https://i.ibb.co/qBXPtvg/download-1.jpg" alt='' />
                             </div>
                             </div>
@@ -102,8 +102,8 @@ const Table = () => {
                         <td>
 
                            <div className="flex items-center">
-                           <div class="avatar placeholder">
-                            <div class="bg-neutral-focus text-neutral-content rounded-full w-12">
+                           <div className="avatar placeholder">
+                            <div className="bg-neutral-focus text-neutral-content rounded-full w-12">
                                 <img src="https://i.ibb.co/VCn0PQ3/download-2.jpg" alt='' />
                             </div>
                             </div>

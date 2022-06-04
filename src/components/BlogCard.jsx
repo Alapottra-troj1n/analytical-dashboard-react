@@ -17,7 +17,7 @@ const BlogCard = () => {
                     <button className="btn btn-xs bg-secondary border-0 text-xs font-medium text-white">Medium</button>
                     <button className="btn btn-xs bg-primary border-0 text-xs font-medium text-white">Low</button>
                     </div>
-                    <div class="divider"></div> 
+                    <div className="divider"></div> 
 
                     <div className='flex justify-between items-center'>
                         <div className='flex gap-3'>

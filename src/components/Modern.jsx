@@ -39,7 +39,7 @@ const Modern = () => {
                             <h2 className="font-normal my-2 text-sm text-gray-400" >Monthly Sales</h2>
                         </div>
                         <div>
-                            <button class='btn btn-secondary rounded-full' ><FaShoppingBag className="text-white text-lg" /></button>
+                            <button className='btn btn-secondary rounded-full' ><FaShoppingBag className="text-white text-lg" /></button>
                         </div>
                     </div>
                     <div className="w-full flex justify-between bg-white overflow-hidden h-52 rounded-3xl p-8 drop-shadow-sm" >
@@ -49,7 +49,7 @@ const Modern = () => {
                             <h2 className="font-normal my-2 text-sm text-gray-400" >Monthly Revenue</h2>
                         </div>
                         <div>
-                            <button class='btn btn-primary rounded-full' ><FaDollarSign className="text-white text-lg" /></button>
+                            <button className='btn btn-primary rounded-full' ><FaDollarSign className="text-white text-lg" /></button>
                         </div>
                     </div>
 
@@ -62,7 +62,7 @@ const Modern = () => {
                     <div className=" bg-white py-5 flex flex-1 h-full flex-col justify-center px-5 rounded-3xl">
                         <div className='flex justify-between'>
                             <h2 className="text-left text-xl font-medium mt-3 mb-10">Revenue Updates</h2>
-                            <select class="select max-w-xs select-bordered">
+                            <select className="select max-w-xs select-bordered">
                                 <option disabled selected>March 2022</option>
                                 <option>April 2022</option>
                                 <option>May 2022</option>
@@ -109,7 +109,7 @@ const Modern = () => {
                     <div className=" bg-white py-5 flex flex-col justify-between px-5 rounded-3xl">
                         <div className='flex justify-between'>
                             <h2 className="text-left text-xl font-medium mt-3 mb-10">Total Sales</h2>
-                            <select class="select max-w-xs select-bordered">
+                            <select className="select max-w-xs select-bordered">
                                 <option disabled selected>March 2022</option>
                                 <option>April 2022</option>
                                 <option>May 2022</option>
@@ -145,7 +145,7 @@ const Modern = () => {
 
                     <div className='flex justify-between'>
                             <h2 className="text-left text-xl font-medium mt-3">Product Performance</h2>
-                            <select class="select max-w-xs select-bordered">
+                            <select className="select max-w-xs select-bordered">
                                 <option disabled selected>March 2022</option>
                                 <option>April 2022</option>
                                 <option>May 2022</option>
@@ -189,12 +189,12 @@ const Modern = () => {
                            <div className='flex gap-3'>
 
                            <div className='flex items-center' >
-                           <div class="badge badge-xs badge-secondary mx-3"></div>
+                           <div className="badge badge-xs badge-secondary mx-3"></div>
                            <h2 className='text-sm' >Pixel Admin</h2>
                            </div>
 
                            <div className='flex items-center ' >
-                           <div class="badge badge-xs badge-primary mx-3"></div>
+                           <div className="badge badge-xs badge-primary mx-3"></div>
                            <h2 className='text-sm' >Ample Admin</h2>
                            </div>
 
