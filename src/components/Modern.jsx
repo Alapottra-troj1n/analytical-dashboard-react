@@ -12,6 +12,7 @@ import BarChartTwo from './Charts/BarChartTwo';
 import BlogCard from './BlogCard';
 import WeeklyStatus from './WeeklyStatus';
 import MedicalPro from './MedicalPro';
+import Footer from './Footer';
 
 
 const Modern = () => {
@@ -19,7 +20,7 @@ const Modern = () => {
 
 
     return (
-        <div className=" pb-10 ">
+        <div>
             <div>
                  {/* First Section */}
                 <div className="grid grid-cols-[40%,25%,35%] px-28 mt-16  items-center gap-5">
@@ -230,9 +231,10 @@ const Modern = () => {
 
 
 
-
+            
 
             </div>
+            <Footer/>
         </div>
     );
 };
